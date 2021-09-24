@@ -2,7 +2,7 @@ require 'calculator'
 
 # subject = classe que esta sendo descrita (Calculator)
 
-describe Calculator, 'Sobre a Calculadora' do
+RSpec.describe Calculator, 'Sobre a Calculadora' do
   # subject explicito
   # subject(:calc) { Calculator.new } # renomeia para ser usado como calc
 
