@@ -10,8 +10,9 @@ describe Calculator, 'Sobre a Calculadora' do
   subject(:calc) { described_class.new } # renomeia para ser usado como calc
   context '#sum' do
     it 'with positive numbers' do
-      result = calc.sum(85, 9)
-      expect(result).to eq(result)
+      result = calc.sum(1, 1)
+      expect(result).to eq(2)
+      # expect(result).not_to eq(3)
     end
 
     it 'with negative and positive numbers' do
